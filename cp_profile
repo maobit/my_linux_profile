@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cp bashrc ~/.bashrc
+cp bash_aliases ~/.bash_aliases
+cp vimrc ~/.vimrc
+cp dir_colors ~/.dir_colors
+
+echo copy profile done!
