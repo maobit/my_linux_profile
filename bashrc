@@ -108,7 +108,7 @@ white='\[\e[1;37m\]'
 endColor='\[\e[0m\]'
 
 
-export PS1="${brown}\u ${purple}\t  \$(if [ \$? = 0 ]; then echo \[\e[36m\]^_^ "\\w"\[\e[0m\]; else echo \[\e[31m\]0_0 "\\w"\[\e[0m\]; fi)  ${green}\n\$$endColor "
+export PS1="${brown}\u@\h ${purple}\t  \$(if [ \$? = 0 ]; then echo \[\e[36m\]^_^ "\\w"\[\e[0m\]; else echo \[\e[31m\]0_0 "\\w"\[\e[0m\]; fi)  ${green}\n\$$endColor "
 export PS2="${green}continue-> $endColor"
 
 
